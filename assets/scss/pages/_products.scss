@@ -1,0 +1,21 @@
+.category .active{
+    color: $primary-400;
+}
+
+.page-item .btn{
+    padding: 8px 15px;
+    border-radius: 0;
+    font-weight: 400;
+    &:hover{
+        background-color: $neutral-100;
+    }
+    &:disabled{
+        pointer-events: none;
+    }
+}
+
+.page-item .active{
+    background-color: $primary-300;
+    font-weight: 500;
+    pointer-events: none;
+}
